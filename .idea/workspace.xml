@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2829a137-c234-46e2-8fa2-1a5f30067971" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="D:\Go" />
+  <component name="ProjectId" id="1bwZks2JAJHI1ZRXRU85toIpAGV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build recievelMoocTwo.go">
+    <configuration name="go build mainPub.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="rabbitMQ" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/RabbitMQPubSub/mainPub.go" />
+      <package value="rabbitMQ" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build mainSub2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="rabbitMQ" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/RabbitMQPubSub/mainSub2.go" />
+      <package value="rabbitMQ" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build publishRouting.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="rabbitMQ" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/RabbitMQRouting/publishRouting.go" />
+      <package value="rabbitMQ" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build recieveimoocOne.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="rabbitMQ" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/RabbitMQRouting/recieveimoocOne.go" />
+      <package value="rabbitMQ" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build recievelMoocTwo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="rabbitMQ" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/RabbitMQRouting/recievelMoocTwo.go" />
+      <package value="rabbitMQ" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build recievelMoocTwo.go" />
+        <item itemvalue="Go Build.go build publishRouting.go" />
+        <item itemvalue="Go Build.go build recieveimoocOne.go" />
+        <item itemvalue="Go Build.go build mainSub2.go" />
+        <item itemvalue="Go Build.go build mainPub.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589545584338">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1589545584338" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1590137356224">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590137356224" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1590137356223">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590137356223" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1590137356223">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590137356223" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1590137356223">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590137356223" />
+    <state x="644" y="253" width="632" height="534" key="find.popup" timestamp="1590136751901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="253" width="632" height="534" key="find.popup/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590136751901" />
+  </component>
+</project>

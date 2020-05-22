@@ -63,9 +63,9 @@ func (r *RabbitMQ) RecieveRouting() {
 	// 2 试探性创建队列，队列名字不要写，随机拿到名字
 	q, err := r.channel.QueueDeclare(
 		"",
-		false,
-		false,
 		true,
+		false,
+		false,
 		false,
 		nil,
 	)

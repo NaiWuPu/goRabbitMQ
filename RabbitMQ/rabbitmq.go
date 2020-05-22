@@ -18,7 +18,7 @@ func (r *RabbitMQ) PublishSimple(message string) {
 	_, err := r.channel.QueueDeclare(
 		r.QueueName,
 		// 消息是否持久化
-		false,
+		true,
 		// 是否自动删除
 		false,
 		// 是否具有排他性
@@ -54,7 +54,7 @@ func (r *RabbitMQ) ConsumeSimple() {
 	_, err := r.channel.QueueDeclare(
 		r.QueueName,
 		// 消息是否持久化
-		false,
+		true,
 		// 是否自动删除
 		false,
 		// 是否具有排他性

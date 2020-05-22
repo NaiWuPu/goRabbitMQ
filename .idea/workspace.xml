@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2829a137-c234-46e2-8fa2-1a5f30067971" name="默认更改列表" comment="" />
+    <list default="true" id="2829a137-c234-46e2-8fa2-1a5f30067971" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/mqpubsub.go" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/mqpubsub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/mqrouting.go" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/mqrouting.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQPubSub/mainPub.go" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQPubSub/mainPub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQPubSub/mainSub.go" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQPubSub/mainSub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQPubSub/mainSub2.go" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQPubSub/mainSub2.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,11 @@
     </option>
   </component>
   <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bwZks2JAJHI1ZRXRU85toIpAGV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,7 +43,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Go Build.go build recievelMoocTwo.go">
+  <component name="RunManager" selected="Go Build.go build mainPub.go">
     <configuration name="go build mainPub.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="rabbitMQ" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -42,11 +53,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build mainSub2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build mainSub.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="rabbitMQ" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/RabbitMQPubSub/mainSub2.go" />
+      <filePath value="$PROJECT_DIR$/RabbitMQPubSub/mainSub.go" />
       <package value="rabbitMQ" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -80,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build recievelMoocTwo.go" />
-        <item itemvalue="Go Build.go build publishRouting.go" />
-        <item itemvalue="Go Build.go build recieveimoocOne.go" />
-        <item itemvalue="Go Build.go build mainSub2.go" />
+        <item itemvalue="Go Build.go build mainSub.go" />
         <item itemvalue="Go Build.go build mainPub.go" />
+        <item itemvalue="Go Build.go build recieveimoocOne.go" />
+        <item itemvalue="Go Build.go build publishRouting.go" />
+        <item itemvalue="Go Build.go build recievelMoocTwo.go" />
       </list>
     </recent_temporary>
   </component>
@@ -104,26 +115,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589545584338">
+    <state x="746" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590141638229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1589545584338" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1590137356224">
+    <state x="746" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590141638229" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590137765130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590137356224" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1590137356223">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590137765130" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1590141883870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590137356223" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1590137356223">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590141883870" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1590141883870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590137356223" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1590137356223">
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590141883870" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1590141883870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590137356223" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590141883870" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1590141883870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590141883870" />
+    <state x="801" y="230" key="RollbackChangesDialog" timestamp="1590140866003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="801" y="230" key="RollbackChangesDialog/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1590140866003" />
     <state x="644" y="253" width="632" height="534" key="find.popup" timestamp="1590136751901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

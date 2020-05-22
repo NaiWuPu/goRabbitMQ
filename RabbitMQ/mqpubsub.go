@@ -6,8 +6,8 @@ import (
 )
 
 // 订阅模式创建RabbitMQ实例
-func NewRabbitMQPubSub(exchangeName string) *RabbitMQ {
-	rabbitmq := NewRabbitMQ("", exchangeName, "")
+func NewRabbitMQPubSub(queueName, exchangeName, key string) *RabbitMQ {
+	rabbitmq := NewRabbitMQ(queueName, exchangeName, key)
 	var err error
 	rabbitmq.conn, err = amqp.Dial(rabbitmq.Mqurl)
 	rabbitmq.failOnErr(err, "failed to connect rabbitmq!")
@@ -35,7 +35,7 @@ func (r *RabbitMQ) PublishPub(message string) {
 	// 2.发送消息
 	err = r.channel.Publish(
 		r.Exchange,
-		"",
+		r.Key,
 		false,
 		false,
 		amqp.Publishing{
@@ -60,10 +60,10 @@ func (r *RabbitMQ) RecieveSub() {
 	r.failOnErr(err, "Failed to declare an exchange")
 	// 2 试探性创建队列，队列名字不要写，随机拿到名字
 	q, err := r.channel.QueueDeclare(
-		"",
-		false,
-		false,
+		r.QueueName,
 		true,
+		false,
+		false,
 		false,
 		nil,
 	)
@@ -73,7 +73,7 @@ func (r *RabbitMQ) RecieveSub() {
 		// 获取上面随机生成的名字
 		q.Name,
 		// 再pub.sub 模式下，key 为空
-		"",
+		r.Key,
 		r.Exchange,
 		false,
 		nil,
@@ -91,12 +91,11 @@ func (r *RabbitMQ) RecieveSub() {
 	)
 
 	forever := make(chan bool)
-
-	go func() {
-		for d := range messges {
-			log.Printf("Received a message: %s", d.Body)
-		}
-	}()
+		go func() {
+			for d := range messges {
+				log.Printf("Received a message: %s", d.Body)
+			}
+		}()
 	//fmt.Println("退出")
 	<-forever
 }
